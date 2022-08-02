@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "meowify"
+version = "0.1.0"
+description = ""
+authors = ["Gulnaz Cidano <tom96meli@gmail.com>", "Bryan Lai <bryanlais@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.7"
+Flask = "1.1.1"
+gunicorn = "20.0.4"
+regex = "2020.5.14"
+youtube-dl = "2020.11.1.1"
+spleeter = "2.0"
+crepe = "0.0.11"
+ddsp = "0.13.1"
+gin-config = "0.3.0"
+tensorflow = "2.3.0"
+scipy = "1.4.1"
+numpy = "^1.18"
+librosa = "0.8.0"
+pydub = "0.24.1"
+jinja2 = "<3.1.0, ~3"
+itsdangerous = "2.0.1"
+werkzeug = "2.0.3"
+tensorflow_probability = "0.11.1"
+ipython = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
