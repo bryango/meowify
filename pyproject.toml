@@ -5,7 +5,7 @@ description = ""
 authors = ["Gulnaz Cidano <tom96meli@gmail.com>", "Bryan Lai <bryanlais@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = ">=3.7, <3.9"
 Flask = "1.1.1"
 gunicorn = "20.0.4"
 regex = "2020.5.14"

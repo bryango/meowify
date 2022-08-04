@@ -1249,7 +1249,7 @@ python-versions = "*"
 
 [[package]]
 name = "tfds-nightly"
-version = "4.6.0.dev202208020046"
+version = "4.6.0.dev202208040045"
 description = "tensorflow/datasets is a library of datasets ready to use with TensorFlow."
 category = "main"
 optional = false
@@ -1427,8 +1427,8 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 
 [metadata]
 lock-version = "1.1"
-python-versions = "3.7"
-content-hash = "5f892cd760bf8c6894b9ddfd062aa208be9445e6a05942a1ddc0470872a5cc48"
+python-versions = ">=3.7, <3.9"
+content-hash = "0ea61a2a84cd535784307bfc9416e7124070fcdff0a3345102ce1fdd8fab90d1"
 
 [metadata.files]
 absl-py = [
@@ -2331,8 +2331,8 @@ termcolor = [
     {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},
 ]
 tfds-nightly = [
-    {file = "tfds-nightly-4.6.0.dev202208020046.tar.gz", hash = "sha256:efed7a04b370a33d86a517845491285aaee913134502c6243e97cba086c22972"},
-    {file = "tfds_nightly-4.6.0.dev202208020046-py3-none-any.whl", hash = "sha256:3f44524036192803b73dcf054a300a4e9349e8d15c811982aec4405a7d53d579"},
+    {file = "tfds-nightly-4.6.0.dev202208040045.tar.gz", hash = "sha256:042926e1507a54701a137f300e1d1bfeecdca0c852161bc8ec01319e9b78ae2d"},
+    {file = "tfds_nightly-4.6.0.dev202208040045-py3-none-any.whl", hash = "sha256:588f0c8e35ee63bd6397d5550a2397effcecb07e08f2b7157c707bdcab642b98"},
 ]
 threadpoolctl = [
     {file = "threadpoolctl-3.1.0-py3-none-any.whl", hash = "sha256:8b99adda265feb6773280df41eece7b2e6561b772d21ffd52e372f999024907b"},
